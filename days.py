@@ -14,7 +14,7 @@ elif day==6:
 elif day==7:
 	print("Sunday")
 else :
-	print("Input a proper number between 0 and 8 ")
+	print("Input a proper number between 0 and 8 ") 
 	
 	
 	
