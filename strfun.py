@@ -1,0 +1,38 @@
+s="Welcome to Yarl it"
+print (len(s))
+print (s.lower())
+print (s.upper())
+print (s.title())
+print (s.capitalize())
+print (s.swapcase())
+print ("*****************************")
+print ("isalpha",s.isalpha())
+print ("isdigit",s.isdigit())
+print ("islower",s.islower())
+print ("isupper",s.isupper())
+print ("isspace",s.isspace())
+print ("is",s.startswith("Welcome"))
+print ("is",s.endswith("it"))
+print ("is",s.find("Yarl"))
+print ("is",s.find("mhsjhfkajhkjhfamadj"))
+print ("is",s.index("Yarl")) 
+#print ("is",s.index("mhsjhfkajhkjhfamadj")) find is better here  , index shows error 
+print (s.count("t"))
+print (s.replace("Yarl it", "Python"))
+print (s.strip())
+print (s.lstrip())
+print (s.rstrip())
+print (s.split())
+print (s[7])
+print(s[-5])
+print (s[7])
+print (s[:7])
+print (s[-2])
+print (s[2:])
+print(s[0:7])
+print(s[8:10])
+print (s[11:18])
+
+
+
+
